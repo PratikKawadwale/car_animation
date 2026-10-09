@@ -199,10 +199,10 @@ export default function CarScrollSection() {
           ref={roadRef}
           className="relative w-full h-[230px] md:h-[280px] bg-[#1e1e1e] flex items-center overflow-hidden shadow-2xl"
         >
-          {/* Neon Green Road Trail - Expands as car drives */}
+          {/* Pink Road Trail - Expands as car drives */}
           <div
             ref={trailRef}
-            className="absolute left-0 top-0 h-full bg-[#45db7d] z-[5] w-0 pointer-events-none transition-none"
+            className="absolute left-0 top-0 h-full bg-[#ff2a85] z-[5] w-0 pointer-events-none transition-none"
           />
 
           {/* Road Title positioned starting from the left side (matching screenshot) */}
